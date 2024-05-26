@@ -1,7 +1,7 @@
 {
   "name": "natalieportfolio",
   "version": "0.1.0",
-  "homepage": "https://nathesloth.github.io/natalieportfolio",
+  "homepage": "https://nathesloth.github.io/natalieportfolio/",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
