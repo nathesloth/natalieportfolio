@@ -1,5 +1,6 @@
 {
   "homepage": "https://nathesloth.github.io/natalieportfolio",
+  "main": "src/index.js",
   "name": "natalieportfolio",
   "version": "0.1.0",
   "private": false,
