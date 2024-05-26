@@ -9,14 +9,14 @@ const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Gallery />} />
-        <Route path="/projects/honne" element={<ProjectView />} />
-        <Route path="/projects/mockar" element={<ProjectView />} />
-        <Route path="/projects/collabwall" element={<ProjectView />} />
-        <Route path="/projects/qps" element={<ProjectView />} />
-        <Route path="/projects/stemball" element={<ProjectView />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/projects" element={<Gallery />} />
+        <Route exact path="/projects/honne" element={<ProjectView />} />
+        <Route exact path="/projects/mockar" element={<ProjectView />} />
+        <Route exact path="/projects/collabwall" element={<ProjectView />} />
+        <Route exact path="/projects/qps" element={<ProjectView />} />
+        <Route exact path="/projects/stemball" element={<ProjectView />} />
       </Routes>
     </>
   );
